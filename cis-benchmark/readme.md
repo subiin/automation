@@ -38,7 +38,6 @@
 ## Pre-requisites
 - "pip3 install gspread"를 실행하여 스프레드시트에 write하기 위해 필요한 gspread 모듈을 설치합니다.
 - 스프레드시트 템플릿 복사하여 각 고객사 드라이브 폴더에 사본을 생성합니다.
-  * https://docs.google.com/spreadsheets/d/1k12bIQK9khmlXFF_0lljVtPBK6lshuicWAzB5ScxKeo
   * 자동화를 처음 수행하는 달이 1월이 아니면 첫 수행 이전 달의 워크시트를 "0월"의 형태로 생성합니다.
     * 자동화가 수행되는 시점의 이전 달의 시트를 복사하기 때문입니다.
 - "Editor" 권한을 가진 GCP 서비스 계정을 생성하여 키 파일도 생성합니다.
