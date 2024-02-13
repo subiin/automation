@@ -1,12 +1,9 @@
-# MSP-Terraform-QuotaMonitoring
+# QuotaMonitoring
 
 ## 개요
-- 작성자(수정일): 조수빈 (2022/12/12)
 - 목적
   * 프로젝트별 Quota의 사용현황 모니터링
   * 지정한 threshold 초과 시 alert를 발생시켜 관리자에게 알리기 위함
-- 적용 프로젝트
-  * MSP 고객 프로젝트
 - 기타
   * Terraform으로 생성
   * Cloud Monitoring의 Consumer Quota 리소스 타입 사용
